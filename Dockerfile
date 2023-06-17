@@ -4,7 +4,7 @@ RUN python -m pip install --upgrade pip
 RUN pip install poetry
 
 RUN apk add -U --no-cache \
-    postgresql -dev \
+    postgresql-dev \
     gcc \
     python3-dev \
     musl-dev
